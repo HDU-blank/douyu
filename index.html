@@ -3,112 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>douyu</title>
-    <link rel="stylesheet" href="../bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container">
-  <div class = "row text-center">
-    <h2>关注列表</h2>
-  </div>
-  <hr class="feature-divider col-md-6 col-md-offset-3">
-  <div class = "row text-center col-md-6 col-md-offset-3">   
-      <ul id="myTab" class="nav nav-tabs" role="tablist">
-      <li role="presentation" class="col-md-4 active"><a href="#all" data-toggle="tab">全部</a></li>
-      <li role="presentation" class="col-md-4"><a href="#online" data-toggle="tab">在线</a></li>
-      <li role="presentation" class="col-md-4"><a href="#outline" data-toggle="tab">离线</a></li>
-    </ul>
-    <div id="myTabContent" class="tab-content">
-      <div role="tabpanel" class="tab-pane active" id="all" data-tab="all">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-                <ul class="status">
-                    
-                </ul>
-            </div>
-          </div>
-        </div> 
-      </div>
-      <div role="tabpanel" class="tab-pane" id="online" data-tab="online">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-                <ul class="status">
-                    
-                </ul> 
-            </div>
-          </div>
-        </div> 
-      </div>
-      <div role="tabpanel" class="tab-pane" id="outline" data-tab="outline">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-                <ul class="status">
-                   
-                </ul>
-            </div>
-          </div>
-        </div> 
-      </div> 
+  <div class="container">
+    <div class = "row text-center">
+      <h2>关注列表</h2>
     </div>
-  <hr class="feature-divider col-md-12"> 
-  <div class="footer">
-      <button class="btn btn-primary">刷新</button>
+    <hr class="feature-divider col-md-6 col-md-offset-3">
+    <div class = "row text-center col-md-6 col-md-offset-3">   
+      <ul id="myTab" class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="col-md-4 active"><a href="#all" data-toggle="tab">全部</a></li>
+        <li role="presentation" class="col-md-4"><a href="#online" data-toggle="tab">在线</a></li>
+        <li role="presentation" class="col-md-4"><a href="#outline" data-toggle="tab">离线</a></li>
+      </ul>
+      <div id="myTabContent" class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="all" data-tab="all">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                  <ul class="status">
+        
+                  </ul>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <div role="tabpanel" class="tab-pane" id="online" data-tab="online">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                  <ul class="status">
+                      
+                  </ul> 
+              </div>
+            </div>
+          </div> 
+        </div>
+        <div role="tabpanel" class="tab-pane" id="outline" data-tab="outline">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                  <ul class="status">
+                     
+                  </ul>
+              </div>
+            </div>
+          </div> 
+        </div> 
+      </div>
+    <hr class="feature-divider col-md-12"> 
+    <div class="footer">
+        <button class="btn btn-primary">刷新</button>
+    </div>
   </div>
-</div>
-<script type="text/javascript" src="../jquery-3.2.1.js" ></script>
+<script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
 <script type="text/javascript" src="https://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js"></script>
-<script type="text/javascript" src="../bootstrap.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
-
-
-
-<!--
-    <ul id="myTab" class="nav nav-tabs" role="tablist">
-      <li role="presentation" class=""><a href="#first" data-toggle="tab">在线</a></li>
-      <li role="presentation" class=""><a href="#second" data-toggle="tab">离线</a></li>
-      <li role="presentation" class=""><a href="#third" data-toggle="tab">全部</a></li>
-    </ul>
-    <div id="myTabContent" class="tab-content">
-      <div role="tabpanel" class="tab-pane" id="first">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-              <div>
-                <p><strong>Google Chrome</strong>使用最广的浏览器</p> 
-                <p>Google Chrome，又称谷歌浏览器，是一个由Google（谷歌）公司开发的免费网页浏览器。“Chrome”是化学元素“铬”的英文名称去也用Chrome称呼浏览器的外框。本软件的程式码是基于其他开放源代码软件所撰写，包括WebKit和Mozilla，目标是提升稳定性、速安全性，并创造出简单且有效率的使用者界面。</p>
-              </div>
-            </div>
-          </div>
-        </div> 
-      </div>
-      <div role="tabpanel" class="tab-pane" id="second">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-              <div>
-                <p><strong>Mozilla Firefox</strong>美丽的狐狸</p> 
-                <p>MozillFirefox，中文俗称“火狐”，是一个自由及开放源代码网页浏览器，使用Gecko排版引擎，支持多种操作系统，如Windows、Mac OX及GNU/Linux等。</p>
-              </div>
-            </div>
-          </div>
-        </div> 
-      </div>
-      <div role="tabpanel" class="tab-pane" id="third">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-              <div>
-                <p><strong>Safari</strong>Mac用户首选</p> 
-                <p>Safari 是一款浏览器、一个平台，也是对锐意创新的公开邀请。无论在 Mac、PC 或 iPod touch 上运行，Safari 都可提供极致愉悦的网络体验方式，更不断地改写浏览器的定义。</p>
-              </div>
-            </div>
-          </div>
-        </div> 
-      </div> 
-    </div>  
--->
