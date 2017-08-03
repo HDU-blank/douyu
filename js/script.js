@@ -5,7 +5,7 @@ $(function(){
           $(this).tab('show');//显示当前选中的链接及关联的content 
         }) 
    function check(id){
-        $.getJSON("http://query.yahooapis.com/v1/public/yql", {
+        $.getJSON("https://query.yahooapis.com/v1/public/yql", {
         q: "select * from json where url=\"http://open.douyucdn.cn/api/RoomApi/room/"+id+"\"",
         format: "json"
 }, function(data) {
