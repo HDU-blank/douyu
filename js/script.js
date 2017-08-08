@@ -1,6 +1,6 @@
 $(function(){
     var attentionArray=['fzz1',56040,96291,16101,4809,'dasima','lck',633144,2250040];
-    $('#myTab a').click(function (e) { 
+    $('#my-tab a').click(function (e) { 
           e.preventDefault();//阻止a链接的跳转行为 
           $(this).tab('show');//显示当前选中的链接及关联的content 
         }) 
